@@ -7,11 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4F4785289D8BCB00FAA6D8 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F4784289D8BCB00FAA6D8 /* character.swift */; };
+		0E4F4789289D8C6200FAA6D8 /* magus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F4786289D8C6200FAA6D8 /* magus.swift */; };
+		0E4F478A289D8C6200FAA6D8 /* dwarf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F4787289D8C6200FAA6D8 /* dwarf.swift */; };
+		0E4F478B289D8C6200FAA6D8 /* warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F4788289D8C6200FAA6D8 /* warrior.swift */; };
+		0E4F478E289D8CC000FAA6D8 /* weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F478D289D8CC000FAA6D8 /* weapon.swift */; };
+		0E4F4792289D8D2A00FAA6D8 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F478F289D8D2A00FAA6D8 /* player.swift */; };
+		0E4F4793289D8D2A00FAA6D8 /* team-old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F4790289D8D2A00FAA6D8 /* team-old.swift */; };
+		0E4F4794289D8D2A00FAA6D8 /* Game-old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F4791289D8D2A00FAA6D8 /* Game-old.swift */; };
+		0E4F4796289D8D5900FAA6D8 /* team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F4795289D8D5900FAA6D8 /* team.swift */; };
+		0E4F479C289DA48600FAA6D8 /* dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F4799289DA48600FAA6D8 /* dragon.png */; };
+		0E4F479D289DA48600FAA6D8 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F479A289DA48600FAA6D8 /* cat.png */; };
+		0E4F479E289DA48600FAA6D8 /* worm.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F479B289DA48600FAA6D8 /* worm.png */; };
+		0E4F47A1289DA52F00FAA6D8 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F479F289DA52F00FAA6D8 /* Background.png */; };
+		0E4F47A2289DA52F00FAA6D8 /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F47A0289DA52F00FAA6D8 /* Background2.png */; };
+		0E4F47A9289DA9EC00FAA6D8 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F47A8289DA9EC00FAA6D8 /* assets.xcassets */; };
+		0E4F47AB289DAA2000FAA6D8 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F47AA289DAA2000FAA6D8 /* AppIcon.appiconset */; };
 		0E722D6B289CC4DA00C276C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E722D6A289CC4DA00C276C2 /* AppDelegate.swift */; };
 		0E722D6D289CC4DA00C276C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E722D6C289CC4DA00C276C2 /* SceneDelegate.swift */; };
 		0E722D6F289CC4DA00C276C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E722D6E289CC4DA00C276C2 /* ViewController.swift */; };
 		0E722D72289CC4DA00C276C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E722D70289CC4DA00C276C2 /* Main.storyboard */; };
-		0E722D74289CC4DB00C276C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E722D73289CC4DB00C276C2 /* Assets.xcassets */; };
 		0E722D77289CC4DB00C276C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E722D75289CC4DB00C276C2 /* LaunchScreen.storyboard */; };
 		0E722D82289CC4DB00C276C2 /* MyHeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E722D81289CC4DB00C276C2 /* MyHeroesTests.swift */; };
 		0E722D8C289CC4DB00C276C2 /* MyHeroesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E722D8B289CC4DB00C276C2 /* MyHeroesUITests.swift */; };
@@ -26,6 +41,7 @@
 		0E722DA7289CCF8800C276C2 /* pokemon-aesthetic android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ajotb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E722DA5289CCF8800C276C2 /* pokemon-aesthetic android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ajotb.jpeg */; };
 		0E722DA9289CCFCD00C276C2 /* High_resolution_wallpaper_background_ID_77700155001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E722DA8289CCFCD00C276C2 /* High_resolution_wallpaper_background_ID_77700155001.jpg */; };
 		0E722DAA289CCFCD00C276C2 /* High_resolution_wallpaper_background_ID_77700155001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E722DA8289CCFCD00C276C2 /* High_resolution_wallpaper_background_ID_77700155001.jpg */; };
+		0EB6BBFC289D8443003992D6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6BBFB289D8443003992D6 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +62,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4F4784289D8BCB00FAA6D8 /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		0E4F4786289D8C6200FAA6D8 /* magus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = magus.swift; sourceTree = "<group>"; };
+		0E4F4787289D8C6200FAA6D8 /* dwarf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dwarf.swift; sourceTree = "<group>"; };
+		0E4F4788289D8C6200FAA6D8 /* warrior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = warrior.swift; sourceTree = "<group>"; };
+		0E4F478D289D8CC000FAA6D8 /* weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weapon.swift; sourceTree = "<group>"; };
+		0E4F478F289D8D2A00FAA6D8 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		0E4F4790289D8D2A00FAA6D8 /* team-old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "team-old.swift"; sourceTree = "<group>"; };
+		0E4F4791289D8D2A00FAA6D8 /* Game-old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Game-old.swift"; sourceTree = "<group>"; };
+		0E4F4795289D8D5900FAA6D8 /* team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = team.swift; sourceTree = "<group>"; };
+		0E4F4799289DA48600FAA6D8 /* dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon.png; sourceTree = "<group>"; };
+		0E4F479A289DA48600FAA6D8 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		0E4F479B289DA48600FAA6D8 /* worm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worm.png; sourceTree = "<group>"; };
+		0E4F479F289DA52F00FAA6D8 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		0E4F47A0289DA52F00FAA6D8 /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background2.png; sourceTree = "<group>"; };
+		0E4F47A8289DA9EC00FAA6D8 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		0E4F47AA289DAA2000FAA6D8 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		0E722D67289CC4DA00C276C2 /* MyHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E722D6A289CC4DA00C276C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E722D6C289CC4DA00C276C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0E722D6E289CC4DA00C276C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E722D71289CC4DA00C276C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E722D73289CC4DB00C276C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E722D76289CC4DB00C276C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E722D78289CC4DB00C276C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E722D7D289CC4DB00C276C2 /* MyHeroesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHeroesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +95,7 @@
 		0E722DA0289CCEAA00C276C2 /* Pokemon_UNITE___Team_Up._Take_Down.___Hero_Image___1080p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pokemon_UNITE___Team_Up._Take_Down.___Hero_Image___1080p.png"; sourceTree = "<group>"; };
 		0E722DA5289CCF8800C276C2 /* pokemon-aesthetic android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ajotb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pokemon-aesthetic android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ajotb.jpeg"; sourceTree = "<group>"; };
 		0E722DA8289CCFCD00C276C2 /* High_resolution_wallpaper_background_ID_77700155001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = High_resolution_wallpaper_background_ID_77700155001.jpg; sourceTree = "<group>"; };
+		0EB6BBFB289D8443003992D6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +123,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4F478C289D8C6500FAA6D8 /* CharacterType */ = {
+			isa = PBXGroup;
+			children = (
+				0E4F4787289D8C6200FAA6D8 /* dwarf.swift */,
+				0E4F4786289D8C6200FAA6D8 /* magus.swift */,
+				0E4F4788289D8C6200FAA6D8 /* warrior.swift */,
+			);
+			path = CharacterType;
+			sourceTree = "<group>";
+		};
+		0E4F4797289DA47200FAA6D8 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				0E4F47AA289DAA2000FAA6D8 /* AppIcon.appiconset */,
+				0E4F479F289DA52F00FAA6D8 /* Background.png */,
+				0E4F47A0289DA52F00FAA6D8 /* Background2.png */,
+				0E4F4798289DA47B00FAA6D8 /* Dragons */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		0E4F4798289DA47B00FAA6D8 /* Dragons */ = {
+			isa = PBXGroup;
+			children = (
+				0E4F4799289DA48600FAA6D8 /* dragon.png */,
+				0E4F479A289DA48600FAA6D8 /* cat.png */,
+				0E4F479B289DA48600FAA6D8 /* worm.png */,
+			);
+			path = Dragons;
+			sourceTree = "<group>";
+		};
 		0E722D5E289CC4DA00C276C2 = {
 			isa = PBXGroup;
 			children = (
 				0E722D69289CC4DA00C276C2 /* MyHeroes */,
+				0EB6BBF9289D8404003992D6 /* Supporting Files */,
 				0E722D80289CC4DB00C276C2 /* MyHeroesTests */,
 				0E722D8A289CC4DB00C276C2 /* MyHeroesUITests */,
 				0E722D68289CC4DA00C276C2 /* Products */,
@@ -114,13 +178,11 @@
 		0E722D69289CC4DA00C276C2 /* MyHeroes */ = {
 			isa = PBXGroup;
 			children = (
-				0E722D6A289CC4DA00C276C2 /* AppDelegate.swift */,
-				0E722D6C289CC4DA00C276C2 /* SceneDelegate.swift */,
-				0E722D6E289CC4DA00C276C2 /* ViewController.swift */,
-				0E722D70289CC4DA00C276C2 /* Main.storyboard */,
-				0E722D73289CC4DB00C276C2 /* Assets.xcassets */,
-				0E722D75289CC4DB00C276C2 /* LaunchScreen.storyboard */,
 				0E722D78289CC4DB00C276C2 /* Info.plist */,
+				0E4F4797289DA47200FAA6D8 /* Ressources */,
+				0EB6BBFA289D842F003992D6 /* Model */,
+				0EB6BBF8289D83E3003992D6 /* View */,
+				0EB6BBF7289D83D5003992D6 /* Controller */,
 			);
 			path = MyHeroes;
 			sourceTree = "<group>";
@@ -145,6 +207,48 @@
 				0E722DA8289CCFCD00C276C2 /* High_resolution_wallpaper_background_ID_77700155001.jpg */,
 			);
 			path = MyHeroesUITests;
+			sourceTree = "<group>";
+		};
+		0EB6BBF7289D83D5003992D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E722D6E289CC4DA00C276C2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0EB6BBF8289D83E3003992D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E722D70289CC4DA00C276C2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EB6BBF9289D8404003992D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E4F4791289D8D2A00FAA6D8 /* Game-old.swift */,
+				0E4F47A8289DA9EC00FAA6D8 /* assets.xcassets */,
+				0E4F4790289D8D2A00FAA6D8 /* team-old.swift */,
+				0E722D6A289CC4DA00C276C2 /* AppDelegate.swift */,
+				0E722D6C289CC4DA00C276C2 /* SceneDelegate.swift */,
+				0E722D75289CC4DB00C276C2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EB6BBFA289D842F003992D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E4F478C289D8C6500FAA6D8 /* CharacterType */,
+				0E4F4784289D8BCB00FAA6D8 /* character.swift */,
+				0E4F478F289D8D2A00FAA6D8 /* player.swift */,
+				0E4F4795289D8D5900FAA6D8 /* team.swift */,
+				0E4F478D289D8CC000FAA6D8 /* weapon.swift */,
+				0EB6BBFB289D8443003992D6 /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,12 +355,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4F479D289DA48600FAA6D8 /* cat.png in Resources */,
+				0E4F479E289DA48600FAA6D8 /* worm.png in Resources */,
 				0E722D77289CC4DB00C276C2 /* LaunchScreen.storyboard in Resources */,
 				0E722DA6289CCF8800C276C2 /* pokemon-aesthetic android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ajotb.jpeg in Resources */,
+				0E4F47AB289DAA2000FAA6D8 /* AppIcon.appiconset in Resources */,
 				0E722D9E289CCE1100C276C2 /* Image.png in Resources */,
 				0E722DA9289CCFCD00C276C2 /* High_resolution_wallpaper_background_ID_77700155001.jpg in Resources */,
-				0E722D74289CC4DB00C276C2 /* Assets.xcassets in Resources */,
 				0E722D9B289CCCE300C276C2 /* Bug@3x.png in Resources */,
+				0E4F479C289DA48600FAA6D8 /* dragon.png in Resources */,
+				0E4F47A9289DA9EC00FAA6D8 /* assets.xcassets in Resources */,
+				0E4F47A1289DA52F00FAA6D8 /* Background.png in Resources */,
+				0E4F47A2289DA52F00FAA6D8 /* Background2.png in Resources */,
 				0E722DA1289CCEAA00C276C2 /* Pokemon_UNITE___Team_Up._Take_Down.___Hero_Image___1080p.png in Resources */,
 				0E722D72289CC4DA00C276C2 /* Main.storyboard in Resources */,
 			);
@@ -288,9 +398,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4F4785289D8BCB00FAA6D8 /* character.swift in Sources */,
 				0E722D6F289CC4DA00C276C2 /* ViewController.swift in Sources */,
 				0E722D6B289CC4DA00C276C2 /* AppDelegate.swift in Sources */,
+				0E4F478E289D8CC000FAA6D8 /* weapon.swift in Sources */,
+				0E4F4792289D8D2A00FAA6D8 /* player.swift in Sources */,
+				0E4F478A289D8C6200FAA6D8 /* dwarf.swift in Sources */,
 				0E722D6D289CC4DA00C276C2 /* SceneDelegate.swift in Sources */,
+				0E4F4794289D8D2A00FAA6D8 /* Game-old.swift in Sources */,
+				0E4F4793289D8D2A00FAA6D8 /* team-old.swift in Sources */,
+				0EB6BBFC289D8443003992D6 /* Game.swift in Sources */,
+				0E4F478B289D8C6200FAA6D8 /* warrior.swift in Sources */,
+				0E4F4789289D8C6200FAA6D8 /* magus.swift in Sources */,
+				0E4F4796289D8D5900FAA6D8 /* team.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
